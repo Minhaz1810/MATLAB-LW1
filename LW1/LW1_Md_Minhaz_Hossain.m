@@ -25,3 +25,29 @@ sqrt(25)
 sin(pi/2)
 
 mean([10 20 30])
+
+%Complemantary Task;
+
+N=6
+
+% first element N+1;
+% Second element N+4;
+% Step Size 0.5;
+% Create vector
+
+A = N+1:0.5:N+4
+
+
+% Create matrix
+
+B = [N N+1 N+2;
+    N+3 N+4 N+5;
+    N+6 N+7 N+8]
+
+
+a = B(3,2)
+
+b = B(2:3,1:2)
+
+c = B([1 3],[1 3])
+
